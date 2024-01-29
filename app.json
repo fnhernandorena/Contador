@@ -21,10 +21,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.nicolinho.Contador",
+      "runtimeVersion": {
+        "policy": "appVersion"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e7b166a8-c675-4bec-b456-d2b8f4923e7f"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e7b166a8-c675-4bec-b456-d2b8f4923e7f"
     }
   }
 }
